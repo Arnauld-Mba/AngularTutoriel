@@ -11,6 +11,7 @@ const pokemonRoutes: Routes = [
   {path: 'pokemons/:id', component: DetailPokemonComponent}
 ];
 
+
 @NgModule({
   declarations: [
     ListPokemonComponent,
