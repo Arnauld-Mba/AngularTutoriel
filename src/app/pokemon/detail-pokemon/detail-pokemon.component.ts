@@ -26,4 +26,8 @@ export class DetailPokemonComponent {
   goToPokemonList (){
     this.router.navigate(['/pokemons']);
   }
+
+  goToEditPokemon(Pokemon: Pokemon) {
+    this.router.navigate(['/edit/pokemon', this.pokemon?.id]);
+  }
 }
